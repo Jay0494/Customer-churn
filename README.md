@@ -9,12 +9,24 @@ Identify customers at risk of churning based on their purchase history and sugge
 - Python
 - PowerBi
 
-## DATA PROCESSING 
-Understanding the business question I then accessed the chinook database to retrieve the customer and invoice dataset which was relevant to answer the buisness question.
-I imported the neccesary libraies and then loaded the data into python and carried out the following processes:
-- Removed the unwanted columns
-- Formated data-types appropriately
-- Renamed columns 
+### Data Processing for Business Analysis
 
-*Note*: for details of the data cleaning process check my notebook file.
-After the data was succesfully cleaned, it was exported to csv file format and loaded into powerbi desktop for analysis.
+To address the business question at hand, I accessed the Chinook database to retrieve the relevant customer and invoice datasets. This process involved several key steps to ensure the data was suitable for analysis.
+
+#### Data Preparation Workflow
+
+1. **Library Imports and Data Loading**: 
+   - I imported the necessary libraries in Python, including pandas for data manipulation.
+   - The customer and invoice datasets were loaded from the Chinook database into Python data frames.
+
+2. **Data Cleaning and Transformation**:
+   - **Removed Unwanted Columns**: I identified and removed columns that were not relevant to the analysis to streamline the dataset and improve processing efficiency.
+   - **Formatted Data Types**: Data types were formatted appropriately to ensure consistency and accuracy. For example, date field was converted to datetime object.
+   - **Renamed Columns**: Columns were renamed to more descriptive and user-friendly names to facilitate easier understanding and analysis.
+
+3. **Exporting Cleaned Data**:
+   - After the data was successfully cleaned and transformed, it was exported to a CSV file format. This format was chosen for its compatibility and ease of use with various data analysis tools.
+
+4. **Loading Data into Power BI**:
+   - The cleaned CSV file was then imported into Power BI Desktop. Power BI's robust visualization and analytical capabilities were leveraged to conduct a detailed analysis and derive actionable insights.
+
