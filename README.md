@@ -16,6 +16,5 @@ I imported the neccesary libraies and then loaded the data into python and carri
 - Formated data-types appropriately
 - Renamed columns 
 
-
 *Note*: for details of the data cleaning process check my notebook file.
 After the data was succesfully cleaned, it was exported to csv file format and loaded into powerbi desktop for analysis.
