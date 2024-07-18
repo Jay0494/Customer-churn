@@ -6,6 +6,9 @@ This project was initiated by the Freebies WhatsApp Group with the objective of 
 
 We utilized the Chinooks Database as our primary data source. The data extraction process involved obtaining relevant customer, transaction, and behavioral information. Post-extraction, we meticulously cleaned and prepared the data using Python, ensuring its suitability for further analysis.
 Through this project, we aim to provide actionable insights and strategies to mitigate customer churn, thereby enhancing customer satisfaction and loyalty.
+
+![chinooks ](https://github.com/user-attachments/assets/009af36d-a18a-4bfa-8b84-48c9c853551d)
+
 ### Project Objective 
 The primary objective of this project is to analyze customer churn data to uncover key insights and patterns that contribute to customer attrition. By understanding these factors, we aim to provide strategic recommendations that will help Chinooks enhance customer retention, optimize marketing efforts, and ultimately increase revenue.
 
